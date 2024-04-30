@@ -12,6 +12,7 @@ stringData:
   username: {{ .username }}
   password: {{ .password }}
   sslmode: {{ .sslmode }}
+  target_session_attrs: {{ .target_session_attrs }}
   type: {{ .type }}
 type: Opaque
 {{- end }}
